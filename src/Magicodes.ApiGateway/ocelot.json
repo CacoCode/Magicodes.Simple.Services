@@ -2,8 +2,8 @@
   "GlobalConfiguration": {
     //服务发现提供程序
     "ServiceDiscoveryProvider": {
-      "Host": "111.230.118.59",
-      "Port": 80,
+      "Host": "127.0.0.1",
+      "Port": 8500,
       "Type": "PollConsul",
       "PollingInterval": 1000
     },
@@ -88,7 +88,7 @@
 
     //API1项目配置
     {
-      "UpstreamPathTemplate": "/gateway/1/{url}",
+      "UpstreamPathTemplate": "/api1/{url}",
       "UpstreamHttpMethod": [ "Get", "Post", "Delete", "Put" ],
       "DownstreamPathTemplate": "/api1/{url}",
       "DownstreamScheme": "http",
@@ -119,7 +119,7 @@
     },
     //API2项目配置
     {
-      "UpstreamPathTemplate": "/gateway/2/{url}",
+      "UpstreamPathTemplate": "/api2/{url}",
       "UpstreamHttpMethod": [ "Get", "Post", "Delete", "Put" ],
       "DownstreamPathTemplate": "/api2/{url}",
       "DownstreamScheme": "http",

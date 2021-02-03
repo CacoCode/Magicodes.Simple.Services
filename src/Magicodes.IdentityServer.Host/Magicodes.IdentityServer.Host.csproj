@@ -16,10 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Magicodes.Simple.Services.Core\Magicodes.Simple.Services.Core.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Update="tempkey.rsa">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

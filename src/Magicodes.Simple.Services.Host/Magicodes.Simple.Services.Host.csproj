@@ -15,8 +15,4 @@
     <!--<PackageReference Include="Microsoft.Extensions.Caching.Redis" Version="2.2.0" />-->
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Magicodes.Simple.Services.Core\Magicodes.Simple.Services.Core.csproj" />
-  </ItemGroup>
-
 </Project>
