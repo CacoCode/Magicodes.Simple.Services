@@ -8,8 +8,7 @@
       "PollingInterval": 1000
     },
     //外部访问路径
-    "BaseUrl": "http://apigateway.xin-lai.com",
-    //"BaseUrl": "http://localhost:13000",
+    "BaseUrl": "http://localhost:13000",
     //限速配置
     "RateLimitOptions": {
       //白名单
@@ -97,10 +96,10 @@
       "UseServiceDiscovery": true,
       "LoadBalancer": "RoundRobin",
       "DownstreamHostAndPorts": [
-        {
-          "Host": "119.29.50.115",
-          "Port": 80
-        },
+        //{
+        //  "Host": "119.29.50.115",
+        //  "Port": 80
+        //},
         {
           "Host": "localhost",
           "Port": 13001
@@ -128,10 +127,10 @@
       "UseServiceDiscovery": true,
       "LoadBalancer": "RoundRobin",
       "DownstreamHostAndPorts": [
-        {
-          "Host": "111.230.160.62",
-          "Port": 80
-        },
+        //{
+        //  "Host": "111.230.160.62",
+        //  "Port": 80
+        //},
         {
           "Host": "localhost",
           "Port": 13002
@@ -155,10 +154,10 @@
       "UpstreamPathTemplate": "/SwaggerAPI1/swagger.json",
       "UpstreamHttpMethod": [ "GET", "POST", "DELETE", "PUT" ],
       "DownstreamHostAndPorts": [
-        {
-          "Host": "119.29.50.115",
-          "Port": 80
-        },
+        //{
+        //  "Host": "119.29.50.115",
+        //  "Port": 80
+        //},
         {
           "Host": "localhost",
           "Port": 13001
@@ -172,10 +171,10 @@
       "UpstreamPathTemplate": "/SwaggerAPI2/swagger.json",
       "UpstreamHttpMethod": [ "GET", "POST", "DELETE", "PUT" ],
       "DownstreamHostAndPorts": [
-        {
-          "Host": "111.230.160.62",
-          "Port": 80
-        },
+        //{
+        //  "Host": "111.230.160.62",
+        //  "Port": 80
+        //},
         {
           "Host": "localhost",
           "Port": 13002
