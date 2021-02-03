@@ -95,16 +95,16 @@
       "ServiceName": "API1",
       "UseServiceDiscovery": true,
       "LoadBalancer": "RoundRobin",
-      "DownstreamHostAndPorts": [
-        //{
-        //  "Host": "119.29.50.115",
-        //  "Port": 80
-        //},
-        {
-          "Host": "localhost",
-          "Port": 13001
-        }
-      ],
+      //"DownstreamHostAndPorts": [
+      //  //{
+      //  //  "Host": "119.29.50.115",
+      //  //  "Port": 80
+      //  //},
+      //  {
+      //    "Host": "localhost",
+      //    "Port": 13001
+      //  }
+      //],
 
       "QoSOptions": {
         "ExceptionsAllowedBeforeBreaking": 3,
@@ -126,16 +126,16 @@
       "ServiceName": "API2",
       "UseServiceDiscovery": true,
       "LoadBalancer": "RoundRobin",
-      "DownstreamHostAndPorts": [
-        //{
-        //  "Host": "111.230.160.62",
-        //  "Port": 80
-        //},
-        {
-          "Host": "localhost",
-          "Port": 13002
-        }
-      ],
+      //"DownstreamHostAndPorts": [
+      //  //{
+      //  //  "Host": "111.230.160.62",
+      //  //  "Port": 80
+      //  //},
+      //  {
+      //    "Host": "localhost",
+      //    "Port": 13002
+      //  }
+      //],
       "QoSOptions": {
         "ExceptionsAllowedBeforeBreaking": 3,
         "DurationOfBreak": 10,
